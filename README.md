@@ -1,18 +1,6 @@
-# cartweb
-servlet docker example 
+# git clone , commit , push , pull working 
 
 
-http://localhost:8080/CatWeb/HelloWorld
+http://localhost:8080/gitservers/HelloWorld
 
-
-------------------------
-docker build -t myaps-web:1.0 .
-
-docker container run -it -d --name tomcatcontainer1 -p 8080:8080 myaps-web:1.0
------------------------------------------------------------------------------------
-no work : docker run --name my-container -p 8080:8181 -t myaps-web:1.0
-
-----------
-
-ref
-https://www.middlewareinventory.com/blog/docker-tomcat-example-dockerfile-sample/
+http://localhost:8080/gitservers/git/customer
