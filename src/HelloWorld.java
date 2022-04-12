@@ -1,4 +1,4 @@
-// Import required java libraries
+
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -10,7 +10,7 @@ public class HelloWorld extends HttpServlet {
 
    public void init() throws ServletException {
       // Do required initialization
-      message = "Hello World ASIM";
+      message = "Hello World ASIM fulbaria";
    }
 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
